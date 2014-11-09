@@ -5,5 +5,10 @@
             top: 200px;
 }
 
-#margintop50 {position: relative;
-    top: 25px;}
+.margintop50 {position: relative;
+    top: 100px;}
+
+.yellow {color:#efef8f;}
+.padding-right{margin-right: 10px !important;}
+.padding-left{margin-left: 5px !important;}
+.inlinesmaller {font-size: .8em !important;}
