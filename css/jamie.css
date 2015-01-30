@@ -4,6 +4,11 @@
 #bottom {   position: relative;
             top: 200px;
 }
+#bottomlast {   position: relative;
+    margin-top: 125px;
+    font-size: .9em !important;
+}
+.quoteAuthor {font-size: .8em !important;}
 
 .margintop50 {position: relative;
     top: 100px;}
@@ -12,3 +17,34 @@
 .padding-right{margin-right: 10px !important;}
 .padding-left{margin-left: 5px !important;}
 .inlinesmaller {font-size: .8em !important;}
+.front-page {top:-322px !important;}
+.nine-smaller {font-size:.9em;}
+
+.myimg img {float: left;margin-right: 20px !important;}
+
+.image-copy {text-align: left;
+    float: left;
+    width: 75%;
+    margin-top: 15px !important;}
+.thefragsize1 {font-size: .9em !important; margin-top:-50px !important;}
+.thefragsize {font-size: .9em !important;}
+.thefragsizelast {text-align: left;margin-top:50px !important;    }
+/*
+
+<section>
+ <section id="fragments0">
+
+<h3>A Partner Search Presentation by Jamie Hennelly</h3>
+                                                     <ul><li class="fragment"><q>"Your most important work is always ahead of you, <br/>never behind you." </q></li></ul>
+                                                                                                                                                                      <p>
+                                                                                                                                                                      <small>~ Stephen Covey</small>
+                                                                                                                                                                                              </p>
+                                                                                                                                                                                                <p>
+                                                                                                                                                                                                <small id="bottom">A business partner search presentation created by <a href="https://github.com/henns20" target="_blank">Jamie Hennelly</a> / <a
+                                                                                                                                                                                                                                                                                                                                                href="https://twitter.com/henns20" target="_blank">@henns20</a> </small>
+</p>
+
+</section>
+</section>
+
+*/
