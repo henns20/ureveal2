@@ -1,12 +1,34 @@
 @charset "UTF-8";
-
+ul.thelist li {
+    line-height: 1.1em;
+    margin-bottom: 15px;
+}
 .pageNumbers {display: block; position: fixed; top:40px; right: -150px; }
+.fiftypoint{font-size: 45px !important; text-align: left}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+.infragment0{text-align: left !important;}
+/* close commented backslash hack */
+/* #fragments0 {margin-top: -75px;}
 
+.bottomhit {position:relative;  bottom:-100px !important;}
+.pagesbottom{}
 #bottom {   position: relative;
             top: 200px;
 }
+.slides>section {min-height:95%;} */
 #bottomlast {   position: relative;
-    margin-top: 125px;
+    margin-top: 65px;
     font-size: .9em !important;
 }
 .quoteAuthor {font-size: .8em !important;}
@@ -27,10 +49,10 @@
 .image-copy {text-align: left;
     float: left;
     width: 75%;
-    margin-top: 15px !important;}
+    }
 .thefragsize1 {font-size: .9em !important; margin-top:-50px !important;}
 .thefragsize {font-size: .9em !important;}
-.thefragsizelast {text-align: left;margin-top:50px !important;    }
+.thefragsizelast {text-align: left; margin-top: 50px !important;}
 /*
 
 <section>
